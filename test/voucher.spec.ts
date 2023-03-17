@@ -48,7 +48,7 @@ describe("Apply Voucher", () => {
   });
 
   it("should not apply the voucher when the amount is not sufficient", () => {
-    const code = "voucher_code";
+    const code = "code";
     const amount = 90;
 
     mocks.successGetVoucher(code);
